@@ -227,5 +227,6 @@ add_action('widgets_init', 'family_grows_register_sidebars_setup');
 */
 require_once(get_template_directory() . '/extras/inline-styles/header-image.php');
 require_once(get_template_directory() . '/includes/extras.php');
+require_once(get_template_directory() . '/includes/customizer/control-radio-image.php');
 require_once(get_template_directory() . '/includes/header-image.php');
 require_once(get_template_directory() . '/includes/template-tags.php');
