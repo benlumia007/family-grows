@@ -462,6 +462,45 @@ a:hover {
 	text-decoration: underline;
 }
 
+.site-logo {
+    float: left;
+    margin: 0;
+	position: relative;
+}
+
+.site-logo a {
+    background: #000000;
+    color: #ffffff;
+    height: 2.2em;
+    margin: 0.6em;
+    padding: 0.2em;
+    position: absolute;
+    text-decoration: none;
+    width: 2.2em;
+    z-index: 10;
+    
+}
+
+.site-logo a:hover,
+.site-logo a:focus {
+	outline: 4px solid #999999;
+}
+
+.site-firstletter {
+	font-family: 'Sanchez', serif;
+    font-size: 1.7em;
+	font-weight: 700;
+	text-align: center;
+    text-transform: uppercase;
+}
+
+.site-logo a:hover .site-firstletter,
+.site-logo a:focus .site-firstletter {
+	background: white;
+	color: black;
+    height: 1.063em;
+}
+
 /*
 ========================================================================================================================================
 10.0 - Navigation (Secondary Navigation)

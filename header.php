@@ -23,19 +23,38 @@ This also displays the navigation menu as well.
         <?php wp_head(); ?>
     </head>
 <body <?php body_class(); ?>>
-    <section id="main-navigation" class="main-navigation">
-        <?php if (has_nav_menu('primary-navigation')) { ?>
-            <nav id="site-navigation" class="primary-navigation">
-                <button class="menu-toggle" aria-conrol="primary-menu" aria-expanded="false"><?php esc_html_e('Menu', 'family-grows'); ?></button>
-                <?php wp_nav_menu(array(
-                    'theme_location'    => 'primary-navigation',
-                    'menu_id'           => 'primary-menu',
-                    'menu_class'        => 'nav-menu'   
-                )); 
-                ?>
-            </nav>            
-        <?php } ?>
-    </section>
+    <div id="logo-navigation" class="logo-navigation">
+        <div id="align-center" class="align-center">
+            <div id="site-logo" class="site-logo">
+                <?php $site_title = get_bloginfo('name'); ?>
+                <a href="<?php echo esc_url(home_url('/')); ?>" rel="home">
+                    <div class="screen-reader-text">
+                        <?php printf(esc_html__('Go to the home page of %1$s', 'splendid-portfolio'), $site_title); ?>	
+                    </div>
+                    <?php
+                    if (has_site_icon()) {
+                        $site_icon = get_site_icon_url(270); ?>
+                        <img class="site-icon" src="<?php echo esc_url($site_icon); ?>">
+                    <?php } else { ?>
+                        <div class="site-firstletter" aria-hidden="true">
+                            <?php echo substr($site_title, 0, 1); ?>
+                        </div>
+                    <?php } ?>
+                </a>
+            </div>
+            <?php if (has_nav_menu('primary-navigation')) { ?>
+                <nav id="site-navigation" class="primary-navigation">
+                    <button class="menu-toggle" aria-conrol="primary-menu" aria-expanded="false"><?php esc_html_e('Menu', 'splendid-portfolio'); ?></button>
+                    <?php wp_nav_menu(array(
+                        'theme_location'    => 'primary-navigation',
+                        'menu_id'           => 'primary-menu',
+                        'menu_class'        => 'nav-menu'   
+                    )); 
+                    ?>
+                </nav>            
+            <?php } ?>
+        </div>
+    </div>
     <?php if (is_front_page()) { ?>
         <header id="site-header" class="site-header header-image">
             <div id="site-branding" class="site-branding">
