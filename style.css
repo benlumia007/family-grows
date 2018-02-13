@@ -6,7 +6,7 @@ Author URI: https://www.benjlu.com/
 Description: Family Grows is a fully functional mobile friendly WordPress theme that allows you to create amazing things.
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-header, theme-options, threaded-comments, translation-ready, blog, holiday
+Tags: one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-header, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, blog, holiday
 Version: 0.0.1
 Text Domain: family-grows
 
@@ -166,6 +166,7 @@ blockquote cite {
 figure,
 img {
     height: auto;
+    margin: 0;
     max-width: 100%;
 }
 
@@ -189,6 +190,12 @@ input[type="submit"]:hover {
     color: #ffffff;
     cursor: pointer;
     padding: 0.5em 1em;
+}
+
+input[type="password"] {
+    border: 0.063em solid #cccccc;
+    padding: 0.5em;
+    width: 20em;
 }
 
 /*
@@ -715,7 +722,8 @@ a:hover {
 }
 
 .content-area .post,
-.content-area .page {
+.content-area .page,
+.content-area .attachment {
     background: #ffffff;
     border: 0.063em solid #cccccc;
     margin-bottom: 1.125em;
@@ -750,7 +758,6 @@ a:hover {
 .content-area .page .entry-content,
 .content-area .page .entry-excerpt {
     line-height: 1.6em;
-    margin: 1.125em 0;
 }
 
 .content-area .post .entry-excerpt .continue-reading {
@@ -801,28 +808,33 @@ a:hover {
 }
 
 
-.content-area .post .entry-metadata {
+.content-area .post .entry-metadata,
+.content-area .attachment .entry-metadata {
     background: #eeeeee;
     margin: 0;
     padding: 1em;
     text-align: center;
 }
 
-.content-area .post .entry-metadata .avatar {
+.content-area .post .entry-metadata .avatar,
+.content-area .attachment .entry-metadata .avatar {
     border: 0.500em solid #cccccc;
     border-radius: 50%;
     display: block;
     margin: 0 auto;
 }
 
-.content-area .post .entry-metadata .by-author {
+.content-area .post .entry-metadata .by-author,
+.content-area .attachment .entry-metadata .by-author {
     display: block;
     font-family: 'Sanchez', serif;
     font-size: 1.250em;
 }
 
 .content-area .post .entry-metadata .published,
-.content-area .post .entry-metadata .entry-comments {
+.content-area .post .entry-metadata .entry-comments,
+.content-area .attachment .entry-metadata .published,
+.content-area .attachment .entry-metadata .entry-comments {
     display: block;
     font-size: 12px;
 }
@@ -1346,6 +1358,11 @@ p.comment-awaiting-moderation {
 23.0 - Media Area (Galleries)
 ========================================================================================================================================
 */
+.gallery-item {
+    float: left;
+    padding: 0.6em;
+    width: 50%;
+}
 
 /*
 ========================================================================================================================================

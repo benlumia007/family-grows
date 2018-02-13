@@ -24,7 +24,7 @@ This content.php is the main content that will be displayed when is on front pag
     <div class="entry-excerpt">
         <?php the_excerpt(); ?>
         <div class="continue-reading">
-            <a href="<?php echo esc_url( get_permalink() ); ?>" rel="bookmark">
+            <a href="<?php echo esc_url(get_permalink()); ?>">
                 <?php
                     printf(
                         wp_kses(__('Continue reading %s', 'family-grows'), array('span' => array('class' => array()))),

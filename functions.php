@@ -209,8 +209,8 @@ function family_grows_register_sidebars_setup() {
     =======================================================================================================
     */
     register_sidebar(array(
-        'name'          => __('Primary Sidebar', 'family-grows'),
-        'description'   => __('Add widgets here to appear in your sidebar on Blog Posts and Archives only', 'family-grows'),
+        'name'          => esc_html__('Primary Sidebar', 'family-grows'),
+        'description'   => esc_html__('Add widgets here to appear in your sidebar on Blog Posts and Archives only', 'family-grows'),
         'id'            => 'primary-sidebar',
         'before_widget' => '<aside id="%1$s" class="widget %2$s">',
         'after_widget'  => '</aside>',
