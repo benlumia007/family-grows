@@ -1,5 +1,5 @@
 Family Grows WordPress Theme
-============================================================================================================
+===========================================================================================================
 Contributor: benlumia007
 Tags: custom-background, custom-header, left-sidebar, right-sidebar
 Requres at least: 4.5
