@@ -483,7 +483,7 @@ a:hover {
 
 .site-logo a:hover,
 .site-logo a:focus {
-	outline: 4px solid #999999;
+	outline: 4px solid #ffffff;
 }
 
 .site-firstletter {
@@ -496,7 +496,7 @@ a:hover {
 
 .site-logo a:hover .site-firstletter,
 .site-logo a:focus .site-firstletter {
-	background: white;
+	background: #ffffff;
 	color: black;
     height: 1.063em;
 }
