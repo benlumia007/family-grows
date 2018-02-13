@@ -1,15 +1,15 @@
 /*
-================================================================================================
-Camaraderie - control-radio-image.js
-================================================================================================
-This is the most generic template file in a WordPress theme and is one of required files to able
-to navigation left, right or no sidebar by using radio-images.
+===========================================================================================================
+Family Grows - control-radio-image.js
+===========================================================================================================
+This is the most generic template file in a WordPress theme and is one of required files to able to 
+navigation left, right or no sidebar by using radio-images.
 
-@package        Camaraderie WordPress Theme
-@copyright      Copyright (C) 2017. Benjamin Lu
+@package        Family Grows WordPress Theme
+@copyright      Copyright (C) 2018. Benjamin Lu
 @license        GNU General Public License v2 or later (http://www.gnu.org/licenses/gpl-2.0.html)
 @author         Benjamin Lu (https://www.benjlu.com/)
-================================================================================================
+===========================================================================================================
 */
 jQuery(document).ready(function(){
     wp.customize.controlConstructor['radio-image'] = wp.customize.Control.extend({

@@ -1,16 +1,17 @@
 <?php
 /*
-========================================================================================================================================
+===========================================================================================================
 Family Grows - header.php
-========================================================================================================================================
-This is the most generic template file in a WordPress theme and is one of the two required files for a theme (the other footer.php). The 
-header.php template file only displays the header section of this theme. This also displays the navigation menu as well.
+===========================================================================================================
+This is the most generic template file in a WordPress theme and is one of the two required files for a 
+theme (the other footer.php). The header.php template file only displays the header section of this theme. 
+This also displays the navigation menu as well.
 
 @package        Family Grows WordPress Theme
 @copyright      Copyright (C) 2018. Benjamin Lu
 @license        GNU General Public License v2 or later (http://www.gnu.org/licenses/gpl-2.0.html)
 @author         Benjamin Lu (https://www.benjlu.com/)
-========================================================================================================================================
+===========================================================================================================
 */
 ?>
 <!DOCTYPE html>

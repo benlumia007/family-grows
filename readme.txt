@@ -2,13 +2,13 @@ Family Grows WordPress Theme
 ===========================================================================================================
 Contributor: benlumia007
 Tags: custom-background, custom-header, left-sidebar, right-sidebar
-Requres at least: 4.5
-Tested up to: 4.9.2
+Requres at least: 4.9.4
+Tested up to: 4.9.4
 Stable tag: 0.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Family Grows WordPress Theme, Copyright (C) 2016, Benjamin Lu
+Family Grows WordPress Theme, Copyright (C) 2018, Benjamin Lu
 Family Grows is distributed under the terms of the GNU GPL
 
 Family Grows is a standard design with responsive capability.

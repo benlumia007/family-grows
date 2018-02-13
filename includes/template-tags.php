@@ -1,34 +1,35 @@
 <?php
 /*
-====================================================================================================================================
+===========================================================================================================
 Family Grows - template-tags.php
-====================================================================================================================================
-This is the most generic template file in a WordPress theme and is one of the two required files for a theme (the other being 
-functions.php). This template-tags.php template file allows you to add additional features and functionality to a WordPress theme 
-which is stored in the includes folder. The primary template file functions.php contains the main features and functionality to 
-the WordPress theme which is stored in the root of the theme's directory.
+===========================================================================================================
+This is the most generic template file in a WordPress theme and is one of the two required files for a 
+theme (the other being functions.php). This template-tags.php template file allows you to add additional 
+features and functionality to a WordPress theme which is stored in the includes folder. The primary template 
+file functions.php contains the main features and functionality to the WordPress theme which is stored in 
+the root of the theme's directory.
 
 @package        Family Grows WordPress Theme
 @copyright      Copyright (C) 2018. Benjamin Lu
 @license        GNU General Public License v2 or later (http://www.gnu.org/licenses/gpl-2.0.html)
 @author         Benjamin Lu (https://www.benjlu.com/)
-====================================================================================================================================
+===========================================================================================================
 */
 
 /*
-====================================================================================================================================
+===========================================================================================================
 Table of Content
-====================================================================================================================================
+===========================================================================================================
  1.0 - Entry Posted On Setup
  2.0 - Entry Time Stamp Setup
  3.0 - Entry Taxonomies Setup
-====================================================================================================================================
+===========================================================================================================
 */
 
 /*
-====================================================================================================================================
+===========================================================================================================
  1.0 - Entry Posted On Setup
-====================================================================================================================================
+===========================================================================================================
 */
 function family_grows_entry_posted_on_setup() {
     $author_avatar_size = apply_filters('family_grows_author_avatar_size', 80);
@@ -55,9 +56,9 @@ function family_grows_entry_posted_on_setup() {
 }
 
 /*
-====================================================================================================================================
+===========================================================================================================
  2.0 - Entry Time Stamp Setup
-====================================================================================================================================
+===========================================================================================================
 */
 function family_grows_entry_time_stamp_setup() {
 	$time_string = '<time class="entry-date published updated" datetime="%1$s">%2$s</time>';
@@ -79,9 +80,9 @@ function family_grows_entry_time_stamp_setup() {
 }
 
 /*
-====================================================================================================================================
+===========================================================================================================
  3.0 - Entry Taxonomies Setup
-====================================================================================================================================
+===========================================================================================================
 */
 function family_grows_entry_taxonomies_setup() {
     $cat_list = get_the_category_list(__(' | ', 'family-grows'));

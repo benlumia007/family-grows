@@ -1,16 +1,16 @@
 <?php
 /*
-================================================================================================
+===========================================================================================================
 Family Grows - content-none.php
-================================================================================================
-This is the most generic template file in a WordPress theme and is one required files to display
-404 and Search as well as recent posts.
+===========================================================================================================
+This is the most generic template file in a WordPress theme and is one required files to display 404 and 
+Search as well as recent posts.
 
 @package        Family Grows WordPress Theme
 @copyright      Copyright (C) 2018. Benjamin Lu
 @license        GNU General Public License v2 or later (http://www.gnu.org/licenses/gpl-2.0.html)
 @author         Benjamin Lu (https://www.benjlu.com/)
-================================================================================================
+===========================================================================================================
 */
 ?>
 <article id="post-0" <?php post_class('post'); ?>>
