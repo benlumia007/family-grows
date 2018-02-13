@@ -812,8 +812,12 @@ a:hover {
     font-size: 12px;
 }
 
-.sticky {
-    
+.sticky:before {
+    content: "\f08d";
+    font-family: 'FontAwesome';
+    font-size: 1.5em;
+    display: block;
+    text-align: center;
 }
 
 /*
