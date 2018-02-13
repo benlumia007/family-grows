@@ -1011,6 +1011,41 @@ p.comment-awaiting-moderation {
 18.0 - Content Area (Search)
 ========================================================================================================================================
 */
+.content-area .search-form:before,
+.content-area .search-form:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.content-area  .post .search-form {
+    padding: 0.938em;
+    background: #555;
+    max-width: 100%;
+}
+
+.content-area .search-field {
+    border: none;
+    float: left;
+    font-family: 'Merriweather', serif;
+    font-size: 1em;
+    padding: 0.5em;
+    width: 100%;
+}
+
+.content-area .search-submit {
+    border: none;
+    background: #d88f3c;
+    color: #ffffff;
+    float: right;
+    font-family: 'Merriweather', serif;
+    font-size: 1em;
+    display: none;
+    padding: 0.4em;
+    position: relative;
+    width: 10%;
+}
+
 
 /*
 ========================================================================================================================================
