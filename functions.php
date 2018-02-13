@@ -109,6 +109,13 @@ function family_grows_theme_setup() {
     ====================================================================================================================================
     */
     add_image_size('family-grows-small-thumbnails', 300, 300, true);
+    
+    /*
+    ====================================================================================================================================
+    add_image_size('camaraderie-medium-thumbnails', 834, 250, true); should be used under the following files. single.php
+        ====================================================================================================================================
+    */
+    add_image_size('family-grows-medium-thumbnails', 1200, 250, true);
 }
 add_action('after_setup_theme', 'family_grows_theme_setup');
 
@@ -212,5 +219,6 @@ add_action('widgets_init', 'family_grows_register_sidebars_setup');
 ========================================================================================================================================
 */
 require_once(get_template_directory() . '/extras/inline-styles/header-image.php');
+require_once(get_template_directory() . '/includes/extras.php');
 require_once(get_template_directory() . '/includes/header-image.php');
 require_once(get_template_directory() . '/includes/template-tags.php');

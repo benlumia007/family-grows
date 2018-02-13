@@ -163,6 +163,11 @@ blockquote cite {
     font-size: 14px;
 }
 
+figure,
+img {
+    height: auto;
+    max-width: 100%;
+}
 
 
 /*
@@ -170,6 +175,21 @@ blockquote cite {
  3.0 - Forms
 ========================================================================================================================================
 */
+input[type="submit"] {
+    background: #ffffff;
+    border: 0.063em solid #cccccc;
+    cursor: pointer;
+    font-family: 'Merriweather', serif;
+    padding: 0.5em 1em;
+}
+
+input[type="submit"]:hover {
+    background: #000000;
+    border: 0.063em solid #cccccc;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 0.5em 1em;
+}
 
 /*
 ========================================================================================================================================
@@ -234,6 +254,8 @@ blockquote cite {
 */
 .site-main:before,
 .site-main:after,
+.entry-content:before,
+.entry-content:after,
 .post-navigation:before,
 .post-navigation:after {
     clear: both;
@@ -610,29 +632,28 @@ a:hover {
     text-align: center;
 }
 
-.site-title,
-.site-description {
+.site-branding .site-title,
+.site-branding .site-description {
     margin: 0;
     padding: 0;
 }
 
-.site-title a {
+.site-branding .site-title a {
     font-size: 1.370em;
     text-decoration: none;
 }
 
-.site-title a,
-.site-description {
+.site-branding .site-title a,
+.site-branding .site-description {
     color: #ffffff;
 }
 
-.blog-title,
-.entry-title {
+.site-branding .blog-title,
+.site-branding .entry-title {
     color: #ffffff;
     font-size: 2.688em;
     margin: 0;
     padding: 0;
-    
 }
 
 
@@ -730,7 +751,7 @@ a:hover {
 
 .content-area .post .entry-metadata {
     background: #eeeeee;
-    margin: 1.250em 0;
+    margin: 0;
     padding: 1em;
     text-align: center;
 }
@@ -752,6 +773,10 @@ a:hover {
 .content-area .post .entry-metadata .entry-comments {
     display: block;
     font-size: 12px;
+}
+
+.entry-post-thumbnail {
+    margin-bottom: 1.125em;
 }
 
 .updated:not(.published) {
@@ -856,14 +881,15 @@ a:hover {
     border: 0.063em solid #cccccc;
     color: #373737;
 	display: inline-block;
-	padding: 0.5em 1.4em;
+	padding: 0.5em 1em;
 	text-decoration: none;
 }
 
 .reply a:hover,
 .reply a:focus {
-	color: #373737;
-    text-decoration: underline;
+    background: #000000;
+	color: #ffffff;
+    text-decoration: none;
 }
 
 .comment-list ol {
@@ -1035,6 +1061,8 @@ p.comment-awaiting-moderation {
 }
 
 .wp-caption-text { 
+    font-size: 0.875em;
+    font-style: italic;
     text-align: center; 
 }
 

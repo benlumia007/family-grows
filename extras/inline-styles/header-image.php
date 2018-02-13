@@ -16,7 +16,7 @@ function family_grows_inline_styles_header_image_setup() {
         $header_image = esc_url(get_theme_mod('header_image', get_template_directory_uri() . '/images/header-image.jpg'));
         $custom_css = '';
         
-        if (is_front_page()) {
+        if (is_front_page() && !is_home()) {
             $custom_css = "    
                 .site-header.header-image{
                     background: url({$header_image});

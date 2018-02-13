@@ -1,7 +1,7 @@
 <?php
 /*
 ====================================================================================================================================
-Family Grows - custom-header.php
+Family Grows - header-image.php
 ====================================================================================================================================
 This is the most generic template file in a WordPress theme and is one of the requirements to set custom header image and styling for 
 the header. 
@@ -17,8 +17,8 @@ the header.
 ====================================================================================================================================
 Table of Content
 ====================================================================================================================================
-1.0 - Custom Header Setup
-2.0 - Custom Header CSS 
+1.0 - Header Image Setup
+2.0 - Header Image CSS 
 ====================================================================================================================================
 */
 
@@ -27,7 +27,7 @@ Table of Content
 1.0 - Custom Header Setup 
 ====================================================================================================================================
 */
-function family_grows_custom_header_setup() {
+function family_grows_header_image_setup() {
     $args = array(
         // Text color and image (empty to use none).
         'default-text-color'     => 'ffffff',
@@ -57,7 +57,7 @@ function family_grows_custom_header_setup() {
         'description'   => __( 'Header Image', 'family-grows')
     )));
 }
-add_action('after_setup_theme', 'family_grows_custom_header_setup');
+add_action('after_setup_theme', 'family_grows_header_image_setup');
 
 
 /*
