@@ -27,7 +27,12 @@ Customizer
    - Site Title Tagline
       - Hide Display Header Text (this will hide the entire header with header text)
 3. Mobile Menu
-   - The Mobile Menu is slightly different from other themes. I have created a mobile menu that is at the bottom left corner that helps users to navigation easier. The reason why is that 90% of users when using their device, their hands are always at the bottom of the screen which kind of makes the mobile menu more sense to have it at the bottom left corner. The Menu itself when is not set, the Site Title and Tagline will move to the center, if set, the Site Title and Tagline will move to the left while the menu is at the right side.
+   - The Mobile Menu is slightly different from other themes. I have created a mobile menu that is at the 
+   bottom left corner that helps users to navigation easier. The reason why is that 90% of users when using 
+   their device, their hands are always at the bottom of the screen which kind of makes the mobile menu more 
+   sense to have it at the bottom left corner. The Menu itself when is not set, the Site Title and Tagline 
+   will move to the center, if set, the Site Title and Tagline will move to the left while the menu is at the 
+   right side.
 4. Header Image
    - Add Header Image
    - Remove Header Image (When removing a header image, the default image will display).
