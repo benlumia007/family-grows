@@ -42,9 +42,7 @@ Customizer
    
 Description
 ===========================================================================================================
-Family Grows is a fully functional mobile friendly WordPress theme that allows you to create amazing  things such as photography 
-portfolio or just a regular portfolio to your needs. It also includes theme options that allows you to create a home page with a 
-template that allows you to set as static  page to show your amazing work.
+Family Grows is a fully functional mobile friendly WordPress theme that allows you to create amazing things.
 
 
 Frequently Asked Questions
