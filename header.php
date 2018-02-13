@@ -55,4 +55,9 @@ header.php template file only displays the header section of this theme. This al
         </div>
     </header>
     <?php } ?>
+    <?php if (function_exists('breadcrumb_trail')) { ?>
+        <div id="site-breadcrumbs" class="site-breadcrumbs">
+            <?php breadcrumb_trail(); ?>
+        </div>
+    <?php } ?>
     <section id="site-content" class="site-content">
