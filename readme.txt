@@ -1,5 +1,5 @@
 Family Grows WordPress Theme
-====================================================================================================================================
+===========================================================================================================
 Contributor: benlumia007
 Tags: custom-background, custom-header, left-sidebar, right-sidebar
 Requres at least: 4.5
@@ -15,13 +15,13 @@ Family Grows is a standard design with responsive capability.
 
 
 Installation
-====================================================================================================================================
+===========================================================================================================
 1. In your admin panel, go to Appearance -> Themes and click the Add New button.
 2. Click Upload and Choose File, then select the theme's ZIP file. Click Install Now.
 3. Click Activate to use your new theme right away.
 
 Customizer
-====================================================================================================================================
+===========================================================================================================
 1. In your admin panel, go to Appearance -> Customize
 2. List of different types that you can modify such as
    - Site Title Tagline
@@ -40,30 +40,30 @@ Customizer
    - Blog
    
 Description
-====================================================================================================================================
+===========================================================================================================
 Family Grows is a fully functional mobile friendly WordPress theme that allows you to create amazing  things such as photography 
 portfolio or just a regular portfolio to your needs. It also includes theme options that allows you to create a home page with a 
 template that allows you to set as static  page to show your amazing work.
 
 
 Frequently Asked Questions
-====================================================================================================================================
+===========================================================================================================
 Not Available.
 
 
 Changelog
-====================================================================================================================================
+===========================================================================================================
 Version: 0.0.1
 - Initial Release
 
 
 Upgrade Notice
-====================================================================================================================================
+===========================================================================================================
 Not Available At the Moment
 
 
 Resources
-====================================================================================================================================
+===========================================================================================================
 Font Awesome by Dave Gandy - http://fontawesome.io
 Font Awesome licensed under SIL OFL 1.1 Ã‚Â· CSS and Font licensed under MIT License
 Source: http://fortawesome.github.io/Font-Awesome/
