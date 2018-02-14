@@ -259,8 +259,18 @@ input[type="password"] {
  6.0 - Clearings
 ========================================================================================================================================
 */
+p:before,
+p:after,
 .site-main:before,
 .site-main:after,
+.left-sidebar:before,
+.left-sidebar:after,
+.right-sidebar:before,
+.alignleft:before,
+.alignleft:after,
+.right-sidebar:before,
+.content-area:before,
+.content-area:after,
 .entry-content:before,
 .entry-content:after,
 .post-navigation:before,

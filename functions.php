@@ -236,6 +236,22 @@ function family_grows_register_sidebars_setup() {
         'before_title'  => '<h2 class="widget-title">',
         'after_title'   => '</h2>',
     ));
+    
+    /*
+    =======================================================================================================
+    Enable and activate Secondary Sidebar for Family Grows WordPress Theme. The Secondary Sidebar should 
+    only show in the page only rather in the blog post. 
+    =======================================================================================================
+    */
+    register_sidebar(array(
+        'name'          => esc_html__('Secondary Sidebar', 'family-grows'),
+        'description'   => esc_html__('Add widgets here to appear in your sidebar on Pages only', 'family-grows'),
+        'id'            => 'secondary-sidebar',
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_widget'  => '</aside>',
+        'before_title'  => '<h2 class="widget-title">',
+        'after_title'   => '</h2>',
+    ));
 }
 add_action('widgets_init', 'family_grows_register_sidebars_setup');
 
