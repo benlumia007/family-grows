@@ -193,10 +193,9 @@ function family_grows_enqueue_scripts_styles_setup() {
     
     /*
     =======================================================================================================
-    Enable and activate the threaded comments for Family Grows WordPress Theme. This allows 
-    users to comment by clicking on reply so that it gets nested to the comments you are trying 
-    to response too. Please do remember that you can change the depth of comment's reply in the
-    comments setting in the dashboard.
+    Enable and activate the threaded comments for Family Grows WordPress Theme. This allows users to comment 
+    by clicking on reply so that it gets nested to the comments you are trying to response too. Please do 
+    remember that you can change the depth of comment's reply in the comments setting in the dashboard.
     =======================================================================================================
     */
     if (is_singular() && comments_open() && get_option('thread_comments')) {
