@@ -5,6 +5,7 @@ Family Grows - misc.php
 ===========================================================================================================
 This is the most generic template file in a WordPress theme and is one of required file to change the height
 if is_singular(); so that it does not have an extra white space at the bottom of each post or page. This 
+
 feature works by using wp_add_inline_style();.
 
 @package        Family Grows WordPress Theme
