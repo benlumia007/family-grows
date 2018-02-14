@@ -251,6 +251,22 @@ function family_grows_register_sidebars_setup() {
         'before_title'  => '<h2 class="widget-title">',
         'after_title'   => '</h2>',
     ));
+    
+    /*
+    =======================================================================================================
+    Enable and activate Custom Sidebar for Family Grows WordPress Theme. The Custom Sidebar should only 
+    show in the custom template only rather in the blog post or page. 
+    =======================================================================================================
+    */
+    register_sidebar(array(
+        'name'          => esc_html__('Custom Sidebar', 'family-grows'),
+        'description'   => esc_html__('Add widgets here to appear in your sidebar on Custom Template only', 'family-grows'),
+        'id'            => 'custom-sidebar',
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_widget'  => '</aside>',
+        'before_title'  => '<h2 class="widget-title">',
+        'after_title'   => '</h2>',
+    ));
 }
 add_action('widgets_init', 'family_grows_register_sidebars_setup');
 
@@ -264,4 +280,5 @@ require_once(get_template_directory() . '/extras/inline-styles/misc.php');
 require_once(get_template_directory() . '/includes/extras.php');
 require_once(get_template_directory() . '/includes/customizer/control-radio-image.php');
 require_once(get_template_directory() . '/includes/header-image.php');
+require_once(get_template_directory() . '/includes/jetpack.php');
 require_once(get_template_directory() . '/includes/template-tags.php');
