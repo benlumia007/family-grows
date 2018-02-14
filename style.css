@@ -710,6 +710,7 @@ a:hover {
 
 .site-breadcrumbs {
     background: #333333;
+    font-size: 0.875em;
 }
 
 /*
@@ -882,6 +883,25 @@ a:hover {
 15.0 - Content Area (Archives)
 ========================================================================================================================================
 */
+.widget_archive li::before,
+.widget_categories li::before {
+    content: "\f187";
+    font-family: 'FontAwesome';
+    margin-right: 0.5em;
+}
+
+.widget_recent_comments li::before {
+    content: "\f086";
+    font-family: 'FontAwesome';
+    margin-right: 0.5em;
+}
+
+.widget_pages li::before,
+.widget_recent_entries li::before {
+    content: "\f15b";
+    font-family: 'FontAwesome';
+    margin-right: 0.5em;
+}
 
 /*
 ========================================================================================================================================
@@ -1006,10 +1026,10 @@ ol.children {
     font-size: 20px;
     margin: 0;
     padding: 0;
-    padding-top: 10px;
 }
 
 .comment-form p {
+    margin-bottom: 0;
     margin-left: 0;
 }
 
@@ -1276,6 +1296,7 @@ p.comment-awaiting-moderation {
 #wp-calendar td {
     border: 0.063em solid #cccccc;
     padding: 0.438em;
+    text-align: center;
 }
 
 #wp-calendar {
@@ -1300,6 +1321,10 @@ p.comment-awaiting-moderation {
 #wp-calendar #today {
     background: #cccccc;
     font-weight: 700;
+}
+
+.textwidget {
+    line-height: 1.6em;
 }
 
 /*

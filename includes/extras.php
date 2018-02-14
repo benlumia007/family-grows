@@ -77,27 +77,27 @@ if (function_exists('breadcrumb_trail')) {
         $style = '
             .breadcrumbs {
                 margin: 0 auto;
-                max-width: 70.875em;
-                padding: 0.5em;
+                max-width: 82em;
+                padding: 0.6em;
             }
             
             .breadcrumbs .trail-browse,
             .breadcrumbs .trail-items,
             .breadcrumbs .trail-items li {
-                color: #ffffff;
-                display:     inline-block;
-                margin:      0;
-                padding:     0;
-                border:      none;
                 background:  transparent;
+                border: none;
+                color: #ffffff;
+                display: inline-block;
+                margin: 0;
+                padding: 0;
                 text-indent: 0;
             }
 
             .breadcrumbs .trail-browse {
-                font-size:   inherit;
-                font-style:  inherit;
+                color: #ffffff;
+                font-size: inherit;
+                font-style: inherit;
                 font-weight: inherit;
-                color:       #ffffff;
                 margin-right: 5px;
             }
 
