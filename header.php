@@ -29,7 +29,7 @@ This also displays the navigation menu as well.
                 <?php $site_title = get_bloginfo('name'); ?>
                 <a href="<?php echo esc_url(home_url('/')); ?>" rel="home">
                     <div class="screen-reader-text">
-                        <?php printf(esc_html__('Go to the home page of %1$s', 'splendid-portfolio'), $site_title); ?>	
+                        <?php printf(esc_html__('Go to the home page of %1$s', 'family-grows'), $site_title); ?>	
                     </div>
                     <?php
                     if (has_site_icon()) {
@@ -44,7 +44,7 @@ This also displays the navigation menu as well.
             </div>
             <?php if (has_nav_menu('primary-navigation')) { ?>
                 <nav id="site-navigation" class="primary-navigation">
-                    <button class="menu-toggle" aria-conrol="primary-menu" aria-expanded="false"><?php esc_html_e('Menu', 'splendid-portfolio'); ?></button>
+                    <button class="menu-toggle" aria-conrol="primary-menu" aria-expanded="false"><?php esc_html_e('Menu', 'family-grows'); ?></button>
                     <?php wp_nav_menu(array(
                         'theme_location'    => 'primary-navigation',
                         'menu_id'           => 'primary-menu',

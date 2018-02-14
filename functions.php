@@ -99,6 +99,25 @@ function family_grows_theme_setup() {
     
     /*
     =======================================================================================================
+    Enable and activate add_theme_support('post_formats', array()); for Family Grows WordPress theme. This 
+    feature allows to set backgrounds such as solid colors or custom background images.
+    =======================================================================================================
+    */
+    add_theme_support('post-formats', array(
+        'gallery',
+        'quote'
+    ));
+    
+    /*
+    ============================================================================================
+    add_post_type_support('page', 'excerpt'); should be used under the pages, you will need to
+    select Excerpt in the Screen Option to enable this feature.
+    ============================================================================================
+    */
+    add_post_type_support('page', 'excerpt');
+    
+    /*
+    =======================================================================================================
     Enable and activate add_theme_support('post-thumbnails); for Family Grows WordPress theme. This feature 
     enables Post Thumbnails (Featured Images) support for a theme. If you wish to display thumbnails, use 
     the following to display the_post_thumbnail();. If you need to to check of there is a post thumbnail, 

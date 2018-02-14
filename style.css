@@ -264,7 +264,13 @@ input[type="password"] {
 .entry-content:before,
 .entry-content:after,
 .post-navigation:before,
-.post-navigation:after {
+.post-navigation:after,
+.gallery:before,
+.gallery:after,
+.page-links:before,
+.page-links:after,
+.gallery-items:before,
+.gallery-items:after {
     clear: both;
     content: "";
     display: table;
@@ -1358,11 +1364,6 @@ p.comment-awaiting-moderation {
 23.0 - Media Area (Galleries)
 ========================================================================================================================================
 */
-.gallery-item {
-    float: left;
-    padding: 0.6em;
-    width: 50%;
-}
 
 /*
 ========================================================================================================================================
