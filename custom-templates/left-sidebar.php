@@ -22,12 +22,6 @@ while giving the custom layout output.
                 <?php while (have_posts()) : the_post(); ?>
                     <?php get_template_part('template-parts/content', 'page'); ?>
                 <?php endwhile; ?>
-                <?php 
-                    the_post_navigation(array(
-                        'next_text' => '<span class="post-next" aria-hiddent="true">' . __('Next', 'family-grows') . '</span>' . '<span class="post-title">%title</span>',
-                        'prev_text' => '<span class="post-previous" aria-hidden="true">' . __( 'Previous', 'family-grows' ) . '</span> ' . '<span class="post-title">%title</span>',
-                    ));
-                ?>
                 <?php comments_template(); ?>
             </div>
             <?php get_sidebar('page'); ?>
