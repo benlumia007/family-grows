@@ -22,8 +22,7 @@ perform their jobs.
         <div id="content-area" class="content-area">
             <?php if (have_posts()) : ?>
                 <div class="archive-header">
-                    <h1 class="archive-title"><?php printf(__('You have search for: <small>', 'family-grows') . get_search_query() . '</small>'); ?></h1>
-                    <?php get_search_form(); ?>
+                    <h1 class="archive-title"><?php the_archive_title(); ?></h1>
                 </div>
                 <?php while (have_posts()) : the_post(); ?>
                     <?php get_template_part('template-parts/content', get_post_format()); ?>

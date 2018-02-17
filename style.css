@@ -893,6 +893,13 @@ a:hover {
 15.0 - Content Area (Archives)
 ========================================================================================================================================
 */
+.archive-header {
+    background: #ffffff;
+    border: 0.063em solid #cccccc;
+    margin-bottom: 1.125em;
+    text-align: center;
+}
+
 .widget_archive li::before,
 .widget_categories li::before {
     content: "\f187";
@@ -1119,12 +1126,20 @@ p.comment-awaiting-moderation {
     display: table;
 }
 
+.archive-header .search-form {
+    margin: 1.25em;
+    padding: 0.938em;
+    background: #555;
+    max-width: 100%;
+}
+
 .content-area  .post .search-form {
     padding: 0.938em;
     background: #555;
     max-width: 100%;
 }
 
+.archive-header .search-field,
 .content-area .search-field {
     border: none;
     float: left;
@@ -1134,6 +1149,7 @@ p.comment-awaiting-moderation {
     width: 100%;
 }
 
+.archive-headser .search-submit,
 .content-area .search-submit {
     border: none;
     background: #d88f3c;
