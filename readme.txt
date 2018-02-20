@@ -4,7 +4,7 @@ Contributor: benlumia007
 Tags: custom-background, custom-header, left-sidebar, right-sidebar
 Requres at least: 4.9.4
 Tested up to: 4.9.4
-Stable tag: 0.0.1
+Stable tag: 0.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -52,6 +52,12 @@ Not Available.
 
 Changelog
 ===========================================================================================================
+Version: 0.0.2
+- Added template files individually for its own functionality to do their own job.
+- Minor CSS change to fit the theme's design.
+- Added support for Blog layout, Page layout and Custom layout.
+- Added Custom templates for individual page, for left and right sidebar.
+
 Version: 0.0.1
 - Initial Release
 
