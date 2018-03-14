@@ -16,11 +16,11 @@ function family_grows_theme_page_options_setup() { ?>
     </p>
     <ul>
         <li>
-            <a href="<?php esc_url('https://wordpress.org/plugins/regenerate-thumbnails/'); ?>" target="_blank"><?php esc_html_e('Regenerate Thumbnails', 'family-grows'); ?></a><br />
+            <a href="<?php echo esc_url('https://wordpress.org/plugins/regenerate-thumbnails/'); ?>" target="_blank"><?php esc_html_e('Regenerate Thumbnails', 'family-grows'); ?></a><br />
             <?php esc_html_e('This will resize the all thumbnails that is been used as part of this theme.', 'family-grows'); ?>
         </li>
         <li>
-            <a href="<?php esc_url('https://wordpress.org/plugins/jetpack/'); ?>" target="_blank"><?php esc_html_e('Jetpack by WordPress.com', 'family-grows'); ?></a><br />
+            <a href="<?php echo esc_url('https://wordpress.org/plugins/jetpack/'); ?>" target="_blank"><?php esc_html_e('Jetpack by WordPress.com', 'family-grows'); ?></a><br />
             <?php esc_html_e('It is definitely recomemended to use Jetpack because this theme supports responsive-videos by Jetpack.', 'family-grows'); ?>
         </li>
     </ul>
