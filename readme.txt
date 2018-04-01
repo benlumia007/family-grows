@@ -52,6 +52,9 @@ Not Available.
 
 Changelog
 ===========================================================================================================
+Version: 0.0.3
+- Minor Changes
+
 Version: 0.0.2
 - Added template files individually for its own functionality to do their own job.
 - Minor CSS change to fit the theme's design.
