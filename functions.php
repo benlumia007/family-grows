@@ -281,5 +281,4 @@ require_once(get_template_directory() . '/includes/extras.php');
 require_once(get_template_directory() . '/includes/customizer/control-radio-image.php');
 require_once(get_template_directory() . '/includes/header-image.php');
 require_once(get_template_directory() . '/includes/jetpack.php');
-require_once(get_template_directory() . '/includes/theme-page.php');
 require_once(get_template_directory() . '/includes/template-tags.php');
