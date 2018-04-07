@@ -98,15 +98,15 @@ function family_grows_control_radio_image_layout_setup($wp_customize) {
     ));
     
     $wp_customize->add_control(new Family_Grows_Control_Radio_Image($wp_customize, 'post_layout', array(
-        'label'     => __('Post Layout', 'family-grows'),
-        'description'   => __('Post Layout applies to posts and archives that supports in this theme.', 'family-grows'),
-        'section'   => 'post_layout',
-        'settings'  => 'post_layout',
-        'type'      => 'radio-image',
-        'choices'  => array(
-			'no-sidebar'    => trailingslashit( get_template_directory_uri() ) . 'images/1col.png',
-			'left-sidebar'  => trailingslashit( get_template_directory_uri() ) . 'images/2cl.png',
-			'right-sidebar' => trailingslashit( get_template_directory_uri() ) . 'images/2cr.png',
+        'label'         => esc_html__('Post Layout', 'family-grows'),
+        'description'   => esc_html__('Post Layout applies to posts and archives that supports in this theme.', 'family-grows'),
+        'section'       => 'post_layout',
+        'settings'      => 'post_layout',
+        'type'          => 'radio-image',
+        'choices'       => array(
+			'no-sidebar'    => trailingslashit(get_template_directory_uri()) . 'images/1col.png',
+			'left-sidebar'  => trailingslashit(get_template_directory_uri()) . 'images/2cl.png',
+			'right-sidebar' => trailingslashit(get_template_directory_uri()) . 'images/2cr.png',
         ),
     )));
     
@@ -130,15 +130,15 @@ function family_grows_control_radio_image_layout_setup($wp_customize) {
     ));
     
     $wp_customize->add_control(new Family_Grows_Control_Radio_Image($wp_customize, 'page_layout', array(
-        'label'     => __('Page Layout', 'family-grows'),
-        'description'   => __('Post Layout applies to posts and archives that supports in this theme.', 'family-grows'),
-        'section'   => 'page_layout',
-        'settings'  => 'page_layout',
-        'type'      => 'radio-image',
-        'choices'  => array(
-			'no-sidebar'    => trailingslashit( get_template_directory_uri() ) . 'images/1col.png',
-			'left-sidebar'  => trailingslashit( get_template_directory_uri() ) . 'images/2cl.png',
-			'right-sidebar' => trailingslashit( get_template_directory_uri() ) . 'images/2cr.png',
+        'label'         => esc_html__('Page Layout', 'family-grows'),
+        'description'   => esc_html__('Post Layout applies to posts and archives that supports in this theme.', 'family-grows'),
+        'section'       => 'page_layout',
+        'settings'      => 'page_layout',
+        'type'          => 'radio-image',
+        'choices'       => array(
+			'no-sidebar'    => trailingslashit(get_template_directory_uri()) . 'images/1col.png',
+			'left-sidebar'  => trailingslashit(get_template_directory_uri()) . 'images/2cl.png',
+			'right-sidebar' => trailingslashit(get_template_directory_uri()) . 'images/2cr.png',
         ),
     )));  
     
@@ -162,12 +162,12 @@ function family_grows_control_radio_image_layout_setup($wp_customize) {
     ));
     
     $wp_customize->add_control(new Family_Grows_Control_Radio_Image($wp_customize, 'custom_layout', array(
-        'label'     => __('Custom Layout', 'family-grows'),
-        'description'   => __('Custom Layout applies to custom layout template that supports in this theme.', 'family-grows'),
-        'section'   => 'custom_layout',
-        'settings'  => 'custom_layout',
-        'type'      => 'radio-image',
-        'choices'  => array(
+        'label'         => esc_html__('Custom Layout', 'family-grows'),
+        'description'   => esc_html__('Custom Layout applies to custom layout template that supports in this theme.', 'family-grows'),
+        'section'       => 'custom_layout',
+        'settings'      => 'custom_layout',
+        'type'          => 'radio-image',
+        'choices'       => array(
 			'no-sidebar'    => trailingslashit( get_template_directory_uri() ) . 'images/1col.png',
 			'left-sidebar'  => trailingslashit( get_template_directory_uri() ) . 'images/2cl.png',
 			'right-sidebar' => trailingslashit( get_template_directory_uri() ) . 'images/2cr.png',

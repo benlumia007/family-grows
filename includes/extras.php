@@ -55,10 +55,13 @@ add_filter('post_class', 'family_grows_unset_has_post_thumbnail');
  3.0 - Excerpt Length Setup
 ===========================================================================================================
 */
-function family_grows_excerpt_length_setup() {
+function family_grows_excerpt_length_setup($length) {
+    if (is_admin()) {
+        return $length;
+    }
     return 50;
 }
-add_filter('excerpt_length', 'family_grows_excerpt_length_setup');
+add_filter('excerpt_length', 'family_grows_excerpt_length_setup', 999);
 
 /*
 ===========================================================================================================
@@ -67,7 +70,7 @@ add_filter('excerpt_length', 'family_grows_excerpt_length_setup');
 */
 if (function_exists('breadcrumb_trail')) { 
     function family_grows_breadcrumb_trail_labels_setup($labels) {
-        $labels['browse'] = 'You are Here:';
+        $labels['browse'] = esc_html__('You are Here:', 'family-grows');
         
         return $labels;
     }

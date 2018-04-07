@@ -79,8 +79,8 @@ function family_grows_header_style() {
                 display: none;
             }
 	<?php else : ?>
-            .site-title a,
-            .site-description {
+            .site-branding .site-title a,
+            .site-branding .site-description {
                 color: #<?php echo esc_html($text_color); ?>;
             }
 	<?php endif; ?>

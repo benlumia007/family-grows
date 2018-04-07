@@ -35,7 +35,7 @@ This also displays the menu for Socal Navigation as well.
     <?php } ?>
     <footer id="site-footer" class="site-footer">
         <div id="site-info" class="site-info">
-            <a href="<?php echo esc_url(__('https://wordpress.org/', 'family-grows')); ?>">
+            <a href="<?php echo esc_url('https://wordpress.org'); ?>">
                 <?php printf(esc_html__('Proudly Powered by %s', 'family-grows'), 'WordPress'); ?>
             </a>
             <br />

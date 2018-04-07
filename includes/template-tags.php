@@ -85,8 +85,8 @@ function family_grows_entry_time_stamp_setup() {
 ===========================================================================================================
 */
 function family_grows_entry_taxonomies_setup() {
-    $cat_list = get_the_category_list(__(' | ', 'family-grows'));
-    $tag_list = get_the_tag_list('', __(' | ', 'family-grows'));
+    $cat_list = get_the_category_list(' | ');
+    $tag_list = get_the_tag_list('', ' | ');
 
     if ($cat_list) {
         printf('<div class="cat-link"> %1$s <span class="cat-list"l><b><i>%2$s</i></b></span></div>',

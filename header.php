@@ -26,7 +26,7 @@ This also displays the navigation menu as well.
     <div id="logo-navigation" class="logo-navigation">
         <div id="align-center" class="align-center">
             <div id="site-logo" class="site-logo">
-                <?php $site_title = get_bloginfo('name'); ?>
+                <?php $site_title = esc_html(get_bloginfo('name')); ?>
                 <a href="<?php echo esc_url(home_url('/')); ?>" rel="home">
                     <div class="screen-reader-text">
                         <?php printf(esc_html__('Go to the home page of %1$s', 'family-grows'), $site_title); ?>	

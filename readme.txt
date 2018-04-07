@@ -3,8 +3,8 @@ Family Grows WordPress Theme
 Contributor: benlumia007
 Tags: custom-background, custom-header, left-sidebar, right-sidebar
 Requres at least: 4.9.4
-Tested up to: 4.9.4
-Stable tag: 0.0.3
+Tested up to: 4.9.5
+Stable tag: 0.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -52,6 +52,12 @@ Not Available.
 
 Changelog
 ===========================================================================================================
+Version: 0.0.4
+- Removed Theme URI:
+- Removed Holiday Tag
+- Fixed Translation
+- Added Licensing for Normalize Reset
+
 Version: 0.0.3
 - Minor Changes
 
@@ -90,6 +96,10 @@ Author: Mohamed Hassan (https://pixabay.com/en/users/mohamed_hassan-5229782/)
 Source: https://pixabay.com/en/design-family-vacation-holiday-3142955/
 License: CC0 License (https://pixabay.com/en/service/terms/#usage)
 
+Normalize Reset
+Author: Nicolas (https://github.com/necolas)
+Source: https://necolas.github.io/normalize.css/8.0.0/normalize.css
+License: MIT License
 
 
 
