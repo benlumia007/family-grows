@@ -4,7 +4,7 @@ Contributor: benlumia007
 Tags: custom-background, custom-header, left-sidebar, right-sidebar
 Requres at least: 4.9.4
 Tested up to: 4.9.5
-Stable tag: 0.0.4
+Stable tag: 0.0.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -52,6 +52,10 @@ Not Available.
 
 Changelog
 ===========================================================================================================
+Version: 0.0.5 
+- Fixed Translation
+- Remove HTML from Translation
+
 Version: 0.0.4
 - Removed Theme URI:
 - Removed Holiday Tag
@@ -103,7 +107,7 @@ Source: https://necolas.github.io/normalize.css/8.0.0/normalize.css
 License: MIT License
 
 Author: Benjamin Lu (https://www.benjlu.com)
-All related images such as 1col, 2cl, 2cr is supplied by the theme author and is released under CC0
+All related images such as 1col, 2cl, 2cr is supplied by the theme author and is released under CC0 Public Domain
 License: https://creativecommons.org/publicdomain/zero/1.0/
 
 
