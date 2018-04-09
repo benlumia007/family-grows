@@ -52,6 +52,9 @@ Not Available.
 
 Changelog
 ===========================================================================================================
+Version: 0.0.6 
+- Small changes to the prefix for the Nav Menu
+
 Version: 0.0.5 
 - Fixed Translation
 - Remove HTML from Translation
