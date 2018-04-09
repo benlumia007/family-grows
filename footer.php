@@ -15,11 +15,11 @@ This also displays the menu for Socal Navigation as well.
 */
 ?>
     </section>
-    <?php if (has_nav_menu('social-navigation')) { ?>
+    <?php if (has_nav_menu('family-grows-social-navigation')) { ?>
         <div id="site-social" class="site-social">
             <?php
                 wp_nav_menu(array(
-                    'theme_location'    => 'social-navigation',
+                    'theme_location'    => 'family-grows-social-navigation',
                     'container'         => 'nav',
                     'container_id'      => 'menu-social',
                     'container_class'   => 'menu-social',

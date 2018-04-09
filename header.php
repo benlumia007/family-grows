@@ -42,11 +42,11 @@ This also displays the navigation menu as well.
                     <?php } ?>
                 </a>
             </div>
-            <?php if (has_nav_menu('primary-navigation')) { ?>
+            <?php if (has_nav_menu('family-grows-primary-navigation')) { ?>
                 <nav id="site-navigation" class="primary-navigation">
                     <button class="menu-toggle" aria-conrol="primary-menu" aria-expanded="false"><?php esc_html_e('Menu', 'family-grows'); ?></button>
                     <?php wp_nav_menu(array(
-                        'theme_location'    => 'primary-navigation',
+                        'theme_location'    => 'family-grows-primary-navigation',
                         'menu_id'           => 'primary-menu',
                         'menu_class'        => 'nav-menu'   
                     )); 

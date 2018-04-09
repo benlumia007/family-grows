@@ -68,8 +68,8 @@ function family_grows_theme_setup() {
     =======================================================================================================
     */
     register_nav_menus(array(
-        'primary-navigation'    => esc_html__('Primary Navigation', 'family-grows'),
-        'social-navigation'     => esc_html__('Social Navigation', 'family-grows')
+        'family-grows-primary-navigation'    => esc_html__('Primary Navigation', 'family-grows'),
+        'family-grows-social-navigation'     => esc_html__('Social Navigation', 'family-grows')
     ));
     
     /*
