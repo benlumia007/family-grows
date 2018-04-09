@@ -168,9 +168,9 @@ function family_grows_control_radio_image_layout_setup($wp_customize) {
         'settings'      => 'custom_layout',
         'type'          => 'radio-image',
         'choices'       => array(
-			'no-sidebar'    => trailingslashit( get_template_directory_uri() ) . 'images/1col.png',
-			'left-sidebar'  => trailingslashit( get_template_directory_uri() ) . 'images/2cl.png',
-			'right-sidebar' => trailingslashit( get_template_directory_uri() ) . 'images/2cr.png',
+			'no-sidebar'    => trailingslashit(get_template_directory_uri()) . 'images/1col.png',
+			'left-sidebar'  => trailingslashit(get_template_directory_uri()) . 'images/2cl.png',
+			'right-sidebar' => trailingslashit(get_template_directory_uri()) . 'images/2cr.png',
         ),
     )));
 }

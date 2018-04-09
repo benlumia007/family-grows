@@ -57,6 +57,7 @@ Version: 0.0.4
 - Removed Holiday Tag
 - Fixed Translation
 - Added Licensing for Normalize Reset
+- Change Excerpt Length
 
 Version: 0.0.3
 - Minor Changes
@@ -101,6 +102,9 @@ Author: Nicolas (https://github.com/necolas)
 Source: https://necolas.github.io/normalize.css/8.0.0/normalize.css
 License: MIT License
 
+Author: Benjamin Lu (https://www.benjlu.com)
+All related images such as 1col, 2cl, 2cr is supplied by the theme author and is released under CC0
+License: https://creativecommons.org/publicdomain/zero/1.0/
 
 
 

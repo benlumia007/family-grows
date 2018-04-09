@@ -22,7 +22,7 @@ perform their jobs.
         <div id="content-area" class="content-area">
             <?php if (have_posts()) : ?>
                 <div class="archive-header">
-                    <h1 class="archive-title"><?php printf(esc_html__('You have search for: <small>', 'family-grows') . get_search_query() . '</small>'); ?></h1>
+                    <h1 class="archive-title"><?php printf(esc_html__('You have search for: ', 'family-grows') . '<small>' . get_search_query() . '</small>'); ?></h1>
                     <?php get_search_form(); ?>
                 </div>
                 <?php while (have_posts()) : the_post(); ?>

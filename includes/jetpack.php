@@ -27,7 +27,7 @@ Table of Content
  1.0 - Jetpack Setup
 ================================================================================================
 */
-function camaraderie_jetpack_setup() {
+function family_grows_jetpack_setup() {
     add_theme_support('jetpack-responsive-videos');
 }
-add_action('after_setup_theme', 'camaraderie_jetpack_setup');
+add_action('after_setup_theme', 'family_grows_jetpack_setup');

@@ -19,7 +19,7 @@ Search as well as recent posts.
             <?php if (is_404()) {
                 esc_html_e('Page Not Available', 'family-grows');
             } else if (is_search()) {
-                printf(__('Nothing found for: <small>', 'family-grows') . get_search_query() . '</small>');
+                printf(esc_html__('Nothing Found for: ', 'family-grows') . '<small>' . get_search_query() . '</small>');
             } else {
                 esc_html_e('Nothing Found', 'family-grows');
             }
@@ -28,15 +28,15 @@ Search as well as recent posts.
     </header>
     <div class="entry-content">
         <?php if (is_home() && current_user_can('publish_posts')) : ?>
-            <p><?php printf( __( 'Ready to publish your first post? <a href="%1$s">Get started here</a>.', 'family-grows' ), esc_url( admin_url( 'post-new.php' ) ) ); ?></p>
+            <p><?php printf(esc_html__('Ready to publish your first post? <a href="%1$s">Get started here</a>.', 'family-grows'), esc_url(admin_url('post-new-.php'))); ?></p>
         <?php elseif (is_404()) : ?>
-            <p><?php esc_html_e( 'You seem to be lost. To find what you are looking for check out the most recent articles below or try a search:', 'family-grows' ); ?></p>
+            <p><?php esc_html_e('You seem to be lost. To find what you are looking for check out the most recent articles below or try a search:', 'family-grows'); ?></p>
             <?php get_search_form(); ?>
         <?php elseif (is_search()) : ?>
-            <p><?php esc_html_e( 'Nothing matched your search terms. Check out the most recent articles below or try searching for something else:', 'family-grows' ); ?></p>
+            <p><?php esc_html_e('Nothing matched your search terms. Check out the most recent articles below or try searching for something else:', 'family-grows'); ?></p>
             <?php get_search_form(); ?>
         <?php else : ?>
-            <p><?php esc_html_e( 'It seems we cannot find what you are looking for. Perhaps searching can help.', 'family-grows' ); ?></p>
+            <p><?php esc_html_e('It seems we cannot find what you are looking for. Perhaps searching can help.', 'family-grows'); ?></p>
             <?php get_search_form(); ?>
         <?php endif; ?>
     </div>
