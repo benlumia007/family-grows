@@ -99,11 +99,11 @@ the primary navigation for the Primary Navigation in different resolution and ot
 			_this.html(_this.html() === familygrowsScreenReaderText.expand ? familygrowsScreenReaderText.collapse : familygrowsScreenReaderText.expand);
 		});
 	}
-	initMainNavigation( $('.family-grows-primary-navigation'));
+	initMainNavigation( $('.primary-navigation'));
 
 	// Re-initialize the main navigation when it is updated, persisting any existing submenu expanded states.
 	$(document ).on('customize-preview-menu-refreshed', function(e, params) {
-		if ('family-grows-primary-navigation' === params.wpNavMenuArgs.theme_location) {
+		if ('primary-navigation' === params.wpNavMenuArgs.theme_location) {
 			initMainNavigation( params.newContainer );
 
 			// Re-sync expanded states from oldContainer.
