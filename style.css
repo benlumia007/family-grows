@@ -529,6 +529,34 @@ a:hover {
 10.0 - Navigation (Secondary Navigation)
 ========================================================================================================================================
 */
+.secondary-navigation {
+    background: #373737;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.secondary-navigation a {
+    color: #ffffff;
+    font-size: 0.750em;
+    margin: 0;
+    padding: 0.938em 0.750em 0 0.750em;
+}
+
+.secondary-navigation ul {
+    max-height: none;
+    padding: 0.5em 1.125em;
+    text-align: center;
+
+}
+
+.secondary-navigation li {
+    display: inline-block;
+    border: none;
+}
+
+.secondary-navigation .menu {
+    margin: 0;
+}
 
 /*
 ========================================================================================================================================

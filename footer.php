@@ -33,6 +33,16 @@ This also displays the menu for Socal Navigation as well.
             ?>
         </div>
     <?php } ?>
+    <?php if (has_nav_menu('secondary-navigation')) { ?>
+        <div id="secondary-navigation" class="secondary-navigation">
+            <?php
+                wp_nav_menu(array(
+                    'theme_location'    => 'secondary-navigation',
+                    'depth'             => 1
+                ));                                  
+            ?>
+        </div>
+    <?php } ?>
     <footer id="site-footer" class="site-footer">
         <div id="site-info" class="site-info">
             <a href="<?php echo esc_url('https://wordpress.org'); ?>">
